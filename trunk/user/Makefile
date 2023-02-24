@@ -164,7 +164,8 @@ ifeq ($(CONFIG_FIRMWARE_INCLUDE_WIREGUARD),y)
 dir_y += wireguard
 dir_y += wireguard-tools
 endif
-dir_$(SAMBA_ENABLED)				+= samba3
+dir_$(SAMBA_ENABLED)				+= samba36
+dir_$(SAMBA_ENABLED)				+= wsdd2
 dir_$(CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS)	+= chnroute
 dir_$(CONFIG_FIRMWARE_INCLUDE_TTYD)		+= ttyd
 dir_$(FRP_ENABLE)				+= frp
